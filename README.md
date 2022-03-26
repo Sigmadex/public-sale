@@ -3,4 +3,4 @@
 # Fair Launch & Community Sale (Price Discovery Event)
 
 ## Summary
-<em>Sigmadex is proposing a community token sale event for accurate price discovery. This concept enables the public to obtain the same valuation structure as all earlier investors through game theory economics.</em>
+<em>Sigmadex is proposing a community driven token sale event for accurate price discovery. This concept utilizes Sigma Curves for price determination, liquidity and vesting while giving an opportunity for the public to obtain the same valuation tiers as all earlier investors. This is accomplished through game theory economics.</em>
