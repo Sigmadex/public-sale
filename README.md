@@ -14,6 +14,28 @@ Many projects use the same mundane public sale models which involve arbitrary pa
 |The auction doesn't sell out | Price is overvalued |
 |**The auction successfully sells out** | Price is accurate or undervalued |
 
-By using a Sigma Curve, we add the most liquidity at the highest price, making it intentionally harder to fill the public auction. This ensures the price discovery is accurate relative to demand as we already know there will be demand at the earlier rounds. If the end price is set too high it will struggle to reach its target and be apparent that the pricing parameters are out of balance. 
+By using a Sigma Curve, we add the most liquidity at the highest price, making it intentionally harder to fill the public auction. This ensures the price discovery is accurate relative to demand as we already know there will be demand at the earlier rounds. If the end price is set too high and not within reason, it will struggle to reach its target for a complete sell-out and be apparent that the pricing parameters are out of balance. Negative pressure on launch can be expected if the sale does not fill-out completely.
 
-Choosing the proper initial variables should be systematic and is critical - as being greedy and setting a high end value will not setup the protocol for growth.
+Choosing the proper initial variables should be decided systematically and is critical for a healthy launch. We propose using the community for feedback on determining the best parameters for the sale as being greedy and setting a high end value will not setup the protocol from a growth standpoint.
+
+### Variables 
+<div align="center"> 
+  
+|var|desc|
+|---|----|
+|x|liquidity|
+|y|price|
+  
+ </div>
+ 
+ ### Proposed Parameters
+ <div align="center"> 
+  
+|var|desc|
+|---|----|
+|x-min|500,000|
+|x-max|10,000,000|
+|y-min|0.0135|
+|y-max|0.125|
+  
+</div>
