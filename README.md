@@ -23,8 +23,8 @@ Choosing the proper initial variables should be decided systematically and is cr
   
 |var|desc|
 |---|----|
-|x|liquidity|
-|y|price|
+|*x*|liquidity|
+|*y*|price|
   
  </div>
  
