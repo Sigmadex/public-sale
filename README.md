@@ -16,7 +16,10 @@ Many projects use the same mundane public sale models which involve arbitrary pa
 
 By using a Sigma Curve, we add the most liquidity at the highest price, making it intentionally harder to fill the public auction. This ensures the price discovery is accurate relative to demand as we already know there will be demand at the earlier rounds. If the end price is set too high and not within reason, it will struggle to reach its target for a complete sell-out and be apparent that the pricing parameters are out of balance. Negative pressure on launch can be expected if the sale does not fill-out completely.
 
-Choosing the proper initial variables should be decided systematically and is critical for a healthy launch. We propose using the community for feedback on determining the best parameters for the sale as being greedy and setting a high end value will not setup the protocol from a growth standpoint.
+Choosing the proper initial variables should be decided systematically and is critical for a healthy launch. We propose using the community for feedback on determining the best parameters for the sale as being greedy and setting a high end value will cause 2 risks:
+
+* Risk of not selling out the allocation
+* Cause an immediate stunt in price appreciation post launch
 
 ### Variables 
 <div align="center"> 
