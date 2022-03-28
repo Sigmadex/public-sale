@@ -24,18 +24,21 @@ Choosing the proper initial variables should be decided systematically and is cr
 ### Variables 
 <div align="center"> 
   
-|var|desc|
+<div class="row">
+    
+|axis|desc|
 |---|----|
 |*x*|liquidity|
 |*y*|price|
-  
- </div>
  
- ### Proposed Parameters
- <div align="center"> 
+  </div>
+</div>
+ 
+### Proposed Parameters
+<div align="center"> 
   
-|var|desc|
-|---|----|
+|var|value|
+|---|-----|
 |x-min|500,000|
 |x-max|10,000,000|
 |y-min|0.0135|
